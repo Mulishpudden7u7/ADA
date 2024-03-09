@@ -30,7 +30,7 @@ def evaluar_expresion_posfija(expresion):
 
 def evaluar_expresion_prefija(expresion):
     pila = Pila()
-    operandos = expresion.split()[::-1]  # Invertir la expresión para evaluarla en notación posfija
+    operandos = expresion.split()[::-1]  
 
     for token in operandos:
         if token.isdigit():
